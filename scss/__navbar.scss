@@ -1,0 +1,59 @@
+.function-container__content {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.function-container__menu {
+    list-style: none;
+    display: flex;
+
+    li {
+        font-size: $font-size-small;
+        margin-left: 2rem;
+
+        display: flex;
+        align-items: center;
+    }
+}
+
+.function-container__facebook {
+    font-size: $font-size-small * 1.5;
+    color: darkblue;
+}
+
+.function-container__search {
+    position: relative;
+    right: 2rem;
+    cursor: pointer;
+}
+
+
+
+
+.navbar_container {
+    display: flex;
+    border-top: 1px #f5f5f5 solid;
+    // TODO: 這邊應該要多下justify-content: center
+
+    // TODO: 選擇器能少則少。能直接使用.logo就別使用.navbar_container .logo
+    .logo {
+        margin: 13px auto 11px 250px;
+    }
+}
+
+
+.menu_bar {
+    margin: 30px 250px 15px auto;
+
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+
+        li {
+            margin-left: 40px;
+            align-items: center;
+        }
+
+    }
+}

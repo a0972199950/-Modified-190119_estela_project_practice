@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TRI Airlines</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+    <!-- 
+    TODO: 若navbar有遍及全螢幕的底色，則通常用三層<div>包覆。若無底色則須兩層
+    <div class="function-container"> => 處理底色
+        <div class="content-container"> => 處理最大寬度及置中
+            <div class="function-container__content"> => 處理內外徑及內部元件排列
+
+            </div>
+        </div>
+    </div> 
+    -->
+
+    <div>
+        <div class="content-container">
+            <div class="function-container__content">
+                <ul class="function-container__menu">
+                    <a href="">
+                        <li><i class="fas fa-shopping-cart"></i>(0)</li>
+                    </a>
+
+                    <a href="">
+                        <li>登入/註冊</li>
+                    </a>
+
+                    <a href="">
+                        <li>繁體中文<i class="fas fa-sort-down"></i></li>
+                    </a>
+
+                    <a href="">
+                        <li><i class="fab fa-facebook-square function-container__facebook"></i></li>
+                    </a>
+
+                    <a href="">
+                        <li><input type="text"><i class="fas fa-search function-container__search"></i></li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- <div class="function_container"> -->
+    <!-- <ul class="function_bar"> -->
+    <!-- TODO: <a>需要有href才可讓鼠標變手指，href未定時可以用空字串或"#" -->
+    <!-- TODO: 可用<a>包住<li>，或相反都可以。但前者較適合 -->
+    <!-- TODO: 圖標通常使用::before或::after。介紹font-awesome -->
+    <!-- <li><img src="./src/assets_index_2019-01-06/cart.png" alt="shopping_cart"></li> -->
+    <!-- <li><a>登入</a>/<a>註冊</a></li> -->
+    <!-- <li>繁體中文<img src="./src/assets_index_2019-01-06/6-5.png" alt="lag_arrow"></li> -->
+    <!-- <li><img src="./src/assets_index_2019-01-06/facebook.png" alt="facebook"></li> -->
+    <!-- TODO: 放大鏡會用到::after及絕對定位 -->
+    <!-- <li><input type="text"><span> </span><img class="search_bar" src="./src/assets_index_2019-01-06/search.png" -->
+    <!-- alt="search"></li> -->
+    <!-- </ul> -->
+    <!-- </div> -->
+
+
+
+    <!-- TODO: 這邊的html結構很好！ -->
+    <div class="navbar_container">
+        <div class="logo">
+            <img src="./src/assets_index_2019-01-06/logo.png" alt="logo">
+        </div>
+
+        <div class="menu_bar">
+            <ul class="menu">
+                <a>
+                    <li>訂位購票</li>
+                </a>
+                <!-- TODO: 選單的垂直分隔線通常使用border。用文字的缺點是高度會無法調整 -->
+                <li>|</li>
+                <a>
+                    <li>旅程準備</li>
+                </a>
+                <li>|</li>
+                <a>
+                    <li>深入探索</li>
+                </a>
+                <li>|</li>
+                <a>
+                    <li>預辦登機</li>
+                </a>
+                <li>|</li>
+                <a>
+                    <li>航班動態</li>
+                </a>
+                <li>|</li>
+                <a>
+                    <li>最新消息</li>
+                </a>
+                <li>|</li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div>
+        <img src="./src/assets_index_2019-01-06/slideshow.png" alt="slideshow_img">
+    </div>
+    <div class="booking">
+        <div>
+            <div class="booking_title">
+                <span>訂位購票</span>
+            </div>
+            <div>
+                <ul class="booking_ticket">
+                    <a>
+                        <li><input type="radio" name="ticket" id="one-way" value="one-way"><label for="one-way">單程</label></li>
+                    </a>
+                    <a>
+                        <li><input type="radio" name="ticket" id="round-trip" value="round-trip"><label for="round-trip">往返</label></li>
+                    </a>
+                    <a>
+                        <li><span class="open-jaw"><u>不同點進出/中途停留/多個城市</u></span></li>
+                    </a>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
